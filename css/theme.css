@@ -1,0 +1,41 @@
+/********************************
+Table of content:
+1. Navbar
+2.sidebar
+*********************************/
+
+
+/********************************
+1. Navbar
+*********************************/
+
+.admin-bar .navbar-fixed-top {
+    margin-top: 30px;
+}
+
+#wpadminbar {
+    background: #d0e4f7;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea', GradientType=0);
+    /* IE6-9 */
+}
+
+.sidebar {
+    margin-top: 2%;
+}
+
+#gallery-1 img {
+    border: 0px!important;
+}
+
+#wpadminbar #wp-admin-bar-search .ab-item {
+    /* padding: 0; */
+    /* background: 0 0; */
+    display: none;
+}
